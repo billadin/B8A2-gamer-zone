@@ -8,18 +8,50 @@
 }
 
 :root {
-    --primaryColor: #FF42A5;
+    --primaryColor: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
     --mainBlack: #0B0223;
     --mainGray: #534C64;
     --mainWhite: #FFF;
+    --mainGradient: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
 }
 
 body {
     font-family: 'Work Sans', sans-serif;
 }
 
+.hide {
+    display: none;
+}
+
 .color-primary {
-    color: var(--primaryColor);
+    background: var(--primaryColor);
+    background-clip: text;
+    /* for Chrome/Safari */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn-primary {
+    display: inline-block;
+    border-radius: 48px;
+    background: var(--primaryColor);
+    padding: 21px 40px;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.btn-secondary {
+    border-radius: 48px;
+    background-color: #4EC5F7;
+    padding: 21px 40px;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 header {
@@ -85,3 +117,82 @@ nav {
 .follow a {
     margin-left: 1rem;
 }
+
+
+/* Hero */
+.hero {
+    background: url("images/Group14.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.hero-container {
+    width: 75%;
+    max-height: 700px;
+    margin: 0 auto;
+    padding-top: 1.15rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-info-container {
+    padding: 9.25rem 0;
+}
+
+.hero-info-title {
+    color:var(--mainBlack);
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+.hero-info-title .goat {
+    background: var(--mainGradient);
+    background-clip: text;
+    color: transparent;
+    /* for Chrome/Safari */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    text-align: center;
+    font-size: 5.938rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.hero-info-items-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2.563rem;
+}
+
+.hero-item {
+    display: flex;
+    align-items: center;
+}
+
+.hero-item p {
+    color: var(--mainGray);
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-transform: lowercase;
+    margin-left: 12px;
+}
+
+.hero-btn {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.hero-img-container > img {
+    /* width: 100%; */
+}
+
+
+
+
+
+
+

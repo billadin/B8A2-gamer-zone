@@ -186,13 +186,118 @@ nav {
     gap: 1.5rem;
 }
 
-.hero-img-container > img {
-    /* width: 100%; */
+/* Online games */
+.online-games {
+    width: 75%;
+    margin: 7.5rem auto;
 }
 
+.online-title {
+    color: var(--mainBlack);
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
 
+.funny, .instant, .games {
+    background: var(--mainGradient);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight: 700;
+}
 
+.online-desc {
+    color: var(--mainGray);
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-bottom: 3rem;
+}
+.online-card-container {
+    display: flex;
+    gap: 1.5rem;
+}
 
+.card p {
+    margin-top: 1.5rem;
+    color: var(--mainGray);
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+/* Online games end */
 
+/* Play instant */
+.play-instant {
+    width: 75%;
+    margin: 7.5rem auto 12.25rem auto;
+}
 
+.play-instant-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.play-instant-info {
+    width: 24%;
+    margin-left: 12.5rem;
+    text-align: right;
+}
+
+.play-instant-title {
+    color: var(--mainBlack);
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.play-instant-img-container {
+    position: relative;
+}
+
+.talking-angel {
+    position: absolute;
+    top: 22.547rem;
+    right: 28.844rem;
+}
+/* Play instant end */
+
+/* Play games */
+.play-games {
+    width: 75%;
+    margin: 0 auto 15.188rem auto;
+}
+
+.play-games-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.play-games-info {
+    width: 34%;
+    text-align: left;
+}
+
+.play-games-title {
+    color: var(--mainBlack);
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.play-games-img-container {
+    position: relative;
+}
+
+.cat-img {
+    position: absolute;
+    left: 33rem;
+    top: 25.5rem;
+}
+/* Play games end */

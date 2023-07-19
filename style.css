@@ -411,7 +411,7 @@ a {
     display: flex;
     gap: 1rem;
     align-items: center;
-    border: 0;
+    border: 1px solid #FFF;
     border-radius: 50px;
     background: #FFF;
     color: #0B0223;
@@ -419,6 +419,12 @@ a {
     font-weight: 600;
     padding: 10px 20px 10px 10px;
 }
+
+.tag-btn:hover {
+    cursor: pointer;
+    color: #FF42A5;
+    border: 1px solid #FF42A5 ;
+    }
 
 /* Game tag end */
 

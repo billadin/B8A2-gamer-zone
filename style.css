@@ -407,7 +407,7 @@ Career
 }
 
 .tag-btn {
-    flex-shrink: 0;
+    /* flex-shrink: 0; */
     display: flex;
     gap: 1rem;
     align-items: center;
@@ -510,6 +510,16 @@ footer {
         margin: 0;
     }
 
+    .funny, .instant, .games {
+        background: var(--mainGradient);
+        background-clip: text;
+        color: transparent;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
     .hero-info-container {
         padding: 0;
     }
@@ -573,4 +583,102 @@ footer {
     }
     /* Online games end */
 
+    /* Play instant */
+    .play-instant-container {
+        width: 100%;
+        flex-direction: column;
+        margin: 0 auto 11.5rem auto;
+    }
+
+    .play-instant-info {
+        width: 70%;
+        margin: 0;
+        text-align: center
+    }
+
+    .play-instant-title {
+        width: 100%;
+        font-size: 2rem;
+    }
+    .play-instant-desc{
+        width: 100%;
+        margin-bottom: 4.625rem;
+    }
+    .play-instant-img-container {
+        background-color: #4EC5F7;
+        width: 60%;
+    }
+    .play-instant-img-container  .main-img {
+        width: 100%;
+    }
+
+    .talking-angel {
+        width: 50%;
+        position: absolute;
+        top: 140px;
+        right: 175px;
+    }
+    /* Play instant end */
+
+    /* Play games */
+    .play-games-container {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .play-games-info {
+        width: 70%;
+        margin: 0;
+        text-align: center
+    }
+
+    .play-games-title {
+        width: 100%;
+        font-size: 2rem;
+    }
+    .play-games-desc{
+        width: 100%;
+        margin-bottom: 4.625rem;
+    }
+    .play-games-img-container {
+        background-color: #4EC5F7;
+        width: 60%;
+    }
+    .play-games-img-container  .main-img {
+        width: 100%;
+    }
+
+    .cat-img {
+        width: 50%;
+        position: absolute;
+        top: 140px;
+        left: 175px;
+    }
+    /* Play games end */
+
+    /* Games tags */
+    .game-tag-container {
+        width: 95%;
+        margin: 0 auto;
+        padding: 7.5rem 0;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 0.7rem;
+    }
+    
+    .tag-btn {
+        /* flex-shrink: 0; */
+        display: flex;
+        gap: 0.8rem;
+        align-items: center;
+        border: 0;
+        border-radius: 50px;
+        background: #FFF;
+        color: #0B0223;
+        font-size: 10px;
+        font-weight: 600;
+        padding: 5px 10px 5px 10px;
+    }
 }
